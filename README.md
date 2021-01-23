@@ -9,7 +9,7 @@ Client–server model is a distributed application structure that partitions tas
 * [4. Server Stream - Data Flow](#4-server-stream-data-flow)
 * [5,6,7. Client](#567-client)
 * [8. Server multi-thread](#8-server-multi-thread)
-* [11. RMI (Remote Method Invocation)](#910none-11-rmi-remote-method-invocation))
+* [11. RMI (Remote Method Invocation)](#910none-11-rmi-remote-method-invocation)
 * [12. Datagrams](#9-datagrams)
 
 
