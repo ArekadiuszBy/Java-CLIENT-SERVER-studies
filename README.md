@@ -10,8 +10,8 @@ Client–server model is a distributed application structure that partitions tas
 * [5,6,7. Client](#567-client)
 * [8. Server multi-thread](#8-server-multi-thread)
 * [11. RMI (Remote Method Invocation)](#910-none-11-rmi-remote-method-invocation)
-* [12. Datagrams](#10-datagrams)
-* [12. Semaphores](#12-semaphores)
+* [12. Datagrams](#12-datagrams)
+* [13. Semaphores](#13-semaphores)
 * [14. Jframe, Swing](#14-jframe-swing)
 
 
