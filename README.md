@@ -2,6 +2,18 @@
 
 Client–server model is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients. Often clients and servers communicate over a computer network on separate hardware, but both client and server may reside in the same system. A server host runs one or more server programs, which share their resources with clients. A client does not share any of its resources, but it requests content or service from a server. Clients, therefore, initiate communication sessions with servers, which await incoming requests. Examples of computer applications that use the client-server model are email, network printing, and the World Wide Web.
 
+## Table of contents
+* [1. Threads](#1-threads)
+* [2. Synchronized](#2-synchronized)
+* [3. Server sockets](#3-server-sockets)
+* [4. Server Stream - Data Flow](#4-server-stream-data-flow)
+* [5,6,7. Client](#567-client)
+* [8. Server multi-thread](#8-server-multi-thread)
+* [11. RMI (Remote Method Invocation)](#910none-11-rmi-remote-method-invocation))
+* [12. Datagrams](#9-datagrams)
+
+
+
 ### 1. Threads
 Threads allows a program to operate more efficiently by doing multiple things at the same time.
 Threads can be used to perform complicated tasks in the background without interrupting the main program.
@@ -9,7 +21,7 @@ Threads can be used to perform complicated tasks in the background without inter
 ### 2. Synchronized 
 The Java programming language provides two basic synchronization idioms: synchronized methods and synchronized statements. The more complex of the two, synchronized statements, are described in the next section.
 
-### 3. Server socket
+### 3. Server sockets
 The server in the client/server pair serves up Knock Knock jokes. Knock Knock jokes are favored by children and are usually vehicles for bad puns. 
 
 ### 4. Server Stream - Data Flow
@@ -24,7 +36,7 @@ A server having more than one thread is known as Multithreaded Server. When a cl
 ### (9,10-none), 11. RMI (Remote Method Invocation)
 Java RMI is a Java API that performs remote method invocation, the object-oriented equivalent of remote procedure calls (RPC), with support for direct transfer of serialized Java classes and distributed garbage-collection.
 
-### 12. Datagram
+### 12. Datagrams
 Java DatagramSocket class represents a connection-less socket for sending and receiving datagram packets.
 A datagram is basically an information but there is no guarantee of its content, arrival or arrival time.
 
