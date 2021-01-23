@@ -6,12 +6,13 @@ Client–server model is a distributed application structure that partitions tas
 * [1. Threads](#1-threads)
 * [2. Synchronized](#2-synchronized)
 * [3. Server sockets](#3-server-sockets)
-* [4. Server Stream - Data Flow](#4-server-stream-data-flow)
+* [4. Server Stream - Data Flow](#4-server-stream---data-flow)
 * [5,6,7. Client](#567-client)
 * [8. Server multi-thread](#8-server-multi-thread)
 * [11. RMI (Remote Method Invocation)](#910-none-11-rmi-remote-method-invocation)
-* [12. Datagrams](#9-datagrams)
-
+* [12. Datagrams](#10-datagrams)
+* [12. Semaphores](#12-semaphores)
+* [14. Jframe, Swing](#14-jframe-swing)
 
 
 ### 1. Threads
@@ -40,3 +41,8 @@ Java RMI is a Java API that performs remote method invocation, the object-orient
 Java DatagramSocket class represents a connection-less socket for sending and receiving datagram packets.
 A datagram is basically an information but there is no guarantee of its content, arrival or arrival time.
 
+### 13. Semaphores
+A semaphore controls access to a shared resource through the use of a counter. If the counter is greater than zero, then access is allowed. If it is zero, then access is denied. What the counter is counting are permits that allow access to the shared resource. Thus, to access the resource, a thread must be granted a permit from the semaphore.
+
+### 14. Jframe, Swing
+The javax. swing. JFrame class is a type of container which inherits the java. ... JFrame works like the main window where components like labels, buttons, textfields are added to create a GUI. Unlike Frame, JFrame has the option to hide or close the window with the help of setDefaultCloseOperation(int) method.
